@@ -2,4 +2,6 @@
 
 !.gitignore
 !Makefile
+!README.md
+
 !*.c
