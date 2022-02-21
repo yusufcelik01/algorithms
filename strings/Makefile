@@ -1,2 +1,5 @@
-kmp-string-matching: kmp-string-matching.c
-	gcc -g -Wall -Werror kmp-string-matching.c -o kmp-string-matching	
+CC=gcc
+CFLAGS= -Wall -Werror
+
+kmp: kmp.c
+	$(CC) $(CFLAGS) kmp.c -o kmp
